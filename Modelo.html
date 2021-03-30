@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+
+        
+        <div>
+         <table>
+        <input class="ecra">
+        <thead></thead>
+        <tbody>
+        <tr>
+            <td class="botom" onclick="nPressionado(7)">7</td>
+            <td class="botom" onclick="nPressionado(8)">8</td>
+            <td class="botom" onclick="nPressionado(9)">9</td>
+            <td class="botom" onclick="del()">Del</td>
+            
+
+        </tr>    
+        <tr>
+            <td class="botom" onclick="nPressionado(4)">4</td>
+            <td class="botom" onclick="nPressionado(5)">5</td>
+            <td class="botom" onclick="nPressionado(6)">6</td>            
+            <td class="botom" onclick="oPressionado('x')">x</td>
+
+        </tr>
+        <tr>
+            <td class="botom" onclick="nPressionado(1)">1</td>
+            <td class="botom" onclick="nPressionado(2)">2</td>
+            <td class="botom" onclick="nPressionado(3)">3</td>            
+            <td class="botom" onclick="oPressionado('+')">+</td>
+
+        </tr>
+        <tr>
+            <td class="botom" onclick="nPressionado(0)">0</td>
+            <td class="botom" onclick="nPressionado('.')">.</td>          
+            <td class="botom" onclick="oPressionado('-')">-</td>
+            <td class="botom" onclick="oPressionado('/')">/</td>
+            
+        </tr>
+        <tr>
+            
+        </tr>
+        </tbody>
+     </table>
+     <input class="botomigual" type="button" value="=" onclick="igual('=')" >
+    </div>
+
+       
+        <div>
+
+        </div>
+    </section>
+    <footer>
+        <P> &copy; FAZ MEU SITE</P>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
